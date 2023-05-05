@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
+body
+{
+    background-image: url('MainScreen.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.boxchuaformdangnhap
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.formdangnhap
+{
+height: 357px;
+width: 690px;
+    border-radius: 10px;
+background-color: #244c28;
+display: flex;
+
+}
+.formdangnhap #username,#password   
+{
+width: 298px;
+height: 32px;
+background: #D9D9D9;
+border-radius: 5px;
+}
+.formdangnhap label
+{
+    color: wheat;
+    font-family: 'Dongle', sans-serif;
+    font-size: larger;
+}
+.formdangnhap form
+{  
+    
+    margin-left: 30px;
+}
+
+.formdangnhap .account-name-form,.account-pass-form
+{
+    margin-bottom: 25px;
+}
+
+.Welcomeheader
+{
+    width: max-content;
+    margin: -30px;
+    margin-left: -60px;
+}
+.Welcomeheader h1
+{
+    font-family: 'Dongle', sans-serif;
+    font-size: 55px;
+    margin-left: 90px;  
+}
+#loginbutton
+{
+    margin-left: 5px;
+    background-color: #ecc24c;
+    height: 45px;
+    margin-top: -20px;
+    width: 298px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#loginbutton:hover
+{
+    opacity: 0.8;
+    cursor: pointer;
+}
+#loginbutton:active
+{
+    opacity: 0.5;
+}
+#loginbutton input
+{
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+    font-size: 40px;  
+    font-family: 'Dongle', sans-serif;
+    padding-top: 5px;
+}
+
+.Besidebox
+{
+    height: 290px;
+    width: 260px;
+    background-color: #8ccca4;
+    margin-top: 30px;
+    margin-left: 30px;
+    border-radius: 5px;
+    
+}
+
+#username,#password
+{
+    font-size: 17px;  
+}
+.Besidebox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.Besidebox img
+{
+    margin-top: -30px;
+    width: 190px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px;
+}
+.Besidebox h3
+{
+    font-family: 'Dongle', sans-serif;
+    font-size: 25px;
+}
+#registerbutton
+{
+
+    width: max-content;
+    margin-left: 20px;
+}
+#registerbutton input
+{
+    border: 0px;
+    background-color: transparent;
+    font-family: 'Dongle', sans-serif;
+    font-size: 25px;
+    font-weight: bolder; 
+    
+}
+#registerbutton input:hover
+{
+    text-decoration: underline;
+    color: red;
+    cursor: pointer;
+}
+.ResSite h3
+{
+    margin: -10px;
+}
+#Or
+{
+    margin-left: 90px;
+}
+//CSSForRegisteringPage
+form {
+        margin: auto;
+    }

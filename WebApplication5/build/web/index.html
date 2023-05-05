@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+  <head>
+    <title>Đăng nhập</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="WEB-INF/../CssForMainpage.css" >
+  </head>
+  <body>
+    
+    <div class="boxchuaformdangnhap" >     
+       <div class="formdangnhap" >     
+           <form action="login" method="post" >
+           <div class="Welcomeheader" ><h1>Welcome back!</h1></div>
+           <div class="account-name-form" >
+               <label for="username">ACCOUNT NAME*</label><br>
+               <input type="text" id="username" name="username"><br>
+           </div>
+           <div class="account-pass-form" >
+               <label for="password">PASSWORD*</label><br>
+               <input type="password" id="password" name="password"><br><br>
+           </div>
+           <div id="loginbutton"  >
+               <input type="submit" value="Log In"  >
+           </div>
+       </form> 
+       <form action="register" method="post"  >
+           <div class="Besidebox" >
+               <img src="qrcode.png" alt="alt"/>
+               <div class="ResSite" >
+                   <h3>Contact me for register account.</h3>
+                   <h3 id="Or" >OR</h3>
+                   <div id="registerbutton" >
+                       <input type="submit" value="Register account now.">
+                   </div>
+               </div>
+           </div>
+       </form>
+       </div>
+        
+    </div>
+    
+  </body>
+  
+</html>

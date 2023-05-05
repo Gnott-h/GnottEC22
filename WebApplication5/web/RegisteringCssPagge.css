@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
+body {
+    height: 100vh;
+    display: flex;
+    background: #04bd7d;
+    color:white;
+}
+form {
+    margin: auto;
+}
+.register_box
+{
+width: 637px;
+height: 555px;
+background: #2c2f35;
+border-radius: 10px;
+text-align: center;
+box-shadow: 0px 0px 50px 0px black;
+}
+h4,h2
+{
+    font-family: 'Dongle', sans-serif;
+    font-size: 40px;  
+    width: 130px;
+    text-align: left;
+    padding-left: 100px;
+}
+h2
+{
+    font-size: 60px;
+    padding-left: 160px;
+    width: 500px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+.gmail_box input ,.user_name_box input,.password_box input
+{
+    height: 40px;
+    width: 450px;
+    border-radius: 7px;
+    margin-top: -60px;
+    background-color: #515966;
+    font-size: 20px;
+    padding-left: 10px;
+    color:white;
+}
+.gmail_box,.password_box,.user_name_box
+{
+    margin-top: -40px;
+   
+}
+.Registeringbutton
+{
+    background: #04bd7d;
+    width: 150px;
+    height: 50px;
+    border-radius: 8px;
+    font-family: 'Dongle', sans-serif;
+    font-size: 35px;
+    box-shadow: 5px 5px 5px 0px;
+    
+}
+.Registeringbutton:hover 
+{
+    opacity: 0.8;
+}
+.Registeringbutton:active
+{
+    opacity: 1.5;
+    box-shadow: 0px 0px 0px 0px;
+}
+ .error
+{
+  color: white;
+}
+
+.email_error_box,.username_error_box,.password_error_box
+{
+    display: flex;
+}
+.email_error_box p,.username_error_box p,.password_error_box p 
+{
+    
+    margin-top: 72px;
+    font-family: 'Dongle', sans-serif;
+    font-size: larger;
+    color: red;
+    margin-left: -10px;
+}
+.email_error_box p
+{
+    margin-left: -55px;
+}
